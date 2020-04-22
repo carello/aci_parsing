@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d1b8dc9-7a22-4a09-bcea-81011d18b24f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/inventory4b.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Abbot_ACI_lic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Abbot_ACI_lic.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_lc_lab.json.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output_lc_lab.json.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_aci3.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_aci3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

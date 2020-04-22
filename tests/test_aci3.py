@@ -23,4 +23,5 @@ def db():
 
 def test_list(db):
     print("BOO")
+    print(db)
     assert type(db) == dict
