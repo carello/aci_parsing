@@ -1,3 +1,6 @@
+"""
+https://www.freecodecamp.org/news/python-property-decorator/
+"""
 class House(object):
     def __init__(self, price):
         self._price = price
