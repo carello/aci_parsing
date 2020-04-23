@@ -95,6 +95,25 @@ class View(Mgmt):
                 do.write('\n')
             do.write('\n')
 
+import math
+
+class PrepSetter(ABC):
+    @abstractmethod
+    def my_setz(self):
+        raise NotImplementedError
+
+class MySetter(PrepSetter):
+    def __init__(self, my_set):
+        self.my_setz = my_set
+
+    @property
+    def my_setz(self):
+        return self.diameter / 2
+
+    @my_setz.setter
+    def my_setz(self, my_setz):
+        self.diameter = my_setz * 100
+
 
 def main():
     r_data = OpenFile(content)
@@ -104,6 +123,8 @@ def main():
     see = View(yo.get_info())
     see.view()
     #see.save_file()
+    response = MySetter(4)
+    print(response.my_setz)
 
 
 if __name__ == "__main__":
